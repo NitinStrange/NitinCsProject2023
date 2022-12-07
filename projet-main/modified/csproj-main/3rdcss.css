@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+}
+.hero{
+	position: relative;
+	top: 30px;
+	height:70px;
+	width: 100%;
+	background-color:	grey;
+	border-radius: 50px;
+	
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	bottom:60px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.zero{
+	padding: 0;
+
+
+}
+.logo{
+	padding: 0;
+	position: relative;
+	left: 900px;
+	background: transparent;
+	
+}
+
+.logo img{
+	
+height: 200px;
+width: 300px;
+position: relative;
+right: 1040px;
+background: transparent;
+
+	
+}
+nav ul li{
+	position: relative;
+	right: 100px;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 15px;
+}
+nav ul li a:hover{
+	color: tomato;
+	transition: .6s;
+	font-size: 15px;
+}
+button{
+	
+	border: none;
+	background: tomato;
+	padding: 12px 20px;
+	border-radius: 30px;
+	color: ghostwhite;
+	font-weight: bold;
+	font-size: 15px;
+	transition: .4s;
+
+}
+button:hover{
+
+	background-color: black;
+
+}
+nav a{
+	font-size: 19px;
+	color: black;
+	right: 50px;
+}
+.container{
+padding-left:200px;
+padding-top:0 ;
+ 
+}
+.col-1{
+	position: relative;
+	height: 600px;
+	width: 300px;
+}
+.col-8{
+position: relative;
+
+left: 25px;
+display: inline-block;
+}
+.col-8 img{
+
+	height: 400px;
+	width: 500px;
+	
+}
+.yaaro {
+	display: flex;
+	flex-direction: row;
+	
+}
+.cont{
+
+position: relative;
+width: 900px;
+left: 100px;
+
+}
+.cont p{
+	font-size: 25px;
+}
+.btn{
+	position: relative;
+	top: 50px;
+}
+.btn a {
+  text-decoration: none;
+  list-style: none;
+  padding: 14px 16px;
+  background-color: #7F59B0;
+   border-radius: 25px ;
+   transition: 1s;
+   color: whitesmoke;
+   position: relative;
+   
+}
+.btn a:hover{
+  background: black;
+  
+  
+  color: wheat;
+
+
+}
+.inputBox{
+	position: relative;
+	top: 90px;
+}
+.rev h1{
+margin: 20px;
+
+
+}
+.col-4 img{
+	width: 190x;
+	height: 150px;
+	border-radius:5px ;
+
+}
+.col-4{
+	 align-items: center;
+	 text-align: center;
+	padding: 10px;
+	width: 200px;
+	margin-bottom: 50px ;
+	text-align: center;
+	background-color:whitesmoke;
+	transition: transform;
+	border-radius: 5px;
+}
+
+.sec{
+
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.prod h1{
+margin: 20px;
+
+
+}
